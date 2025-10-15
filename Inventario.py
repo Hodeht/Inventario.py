@@ -5,7 +5,7 @@ def bienvenida():
     print("=====================================")
     print("  BIENVENIDO AL SISTEMA DE INVENTARIO")
     print("=====================================")
-
+#definicion agregada
 def agregar_producto(nombre, cantidad):
     """Agrega un producto al inventario (Paso por valor)."""
     
@@ -70,3 +70,4 @@ def menu():
 bienvenida()
 
 menu()
+
