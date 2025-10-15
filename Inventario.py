@@ -1,5 +1,5 @@
 inventario = {}
-
+#Modulo principal
 def bienvenida():
     """Muestra un mensaje de bienvenida al sistema."""
     print("=====================================")
@@ -68,4 +68,5 @@ def menu():
             print("Opción inválida, intente de nuevo.")
 
 bienvenida()
+
 menu()
